@@ -1,0 +1,39 @@
+.intro {
+    text-align: center;
+
+    .paragraph {
+        max-width: 32.5rem;
+        margin: 0 auto;
+        margin-top: 1.5rem;
+    }
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.875rem;
+    padding-top: 3rem;
+    align-items: center;
+        
+        ._supervisor::before {
+            background-color: $cyan;
+        }
+
+        ._builder::before {
+            background-color: $red;
+        }
+
+        ._karma::before {
+            background-color: $orange;
+        }
+
+        ._calculator::before {
+            background-color: $blue;
+        }
+
+    ._mid-col {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 1.875rem;
+    }
+}

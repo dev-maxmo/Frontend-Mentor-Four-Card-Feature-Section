@@ -1,0 +1,24 @@
+@media screen and (max-width: 800px) {
+
+    body {
+        height: 100%;
+    }
+
+    h1 {
+        font-size: 1.125rem;
+        line-height: 1.8;
+    }
+
+
+    .hero {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 5.625rem 2rem;
+
+        .content {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
